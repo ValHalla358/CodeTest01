@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Challenge 1</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|News+Cycle|Shadows+Into+Light" rel="stylesheet">
+    <!-- endinject -->
+</head>
+
+<body>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <h1 id="timeStamp"></h1>
+    <h2 id="scrollString"></h2>
+    <div id="boldList">
+        <p class="beachBold">Beach Towel</p>
+        <p class="beachBold">Suntan Lotion</p>
+        <p class="beachBold">Mask, Fins and Snorkel</p>
+        <p class="beachBold">Boogie Board</p>
+    </div>
+    <div>
+        <p id="target" class="dblClick">Click Me!</p>
+    </div>
+    <div id="buttonClick" style="background-color:red">
+        <p>Click the button to change the background color of this paragraph.</p>
+        <button>Change Color</button>
+    </div>
+    <div class="questionList">
+        <ol>
+            <li>Q: How do you define an AngularJS application?</li>
+            <li>Q: What is a controller?</li>
+            <li>Q: What does ng-model do?</li>
+            <li>Q: What is interpolation markup?</li>
+            <li>Q: What is $scope?</li>
+            <li>Q: What is dependency injection?</li>
+            <li>Q: What is two-way binding?</li>
+            <li>Q: What is 'controller as' syntax?</li>
+            <li>Q: What is MV* architecture?</li>
+            <li>Q: What is the difference between a service and a factory?</li>
+        </ol>
+    </div>
+    <div class="answerList">
+        <ol>
+            <li>A: AngularJS applications are websites that use AngularJS to extend HTML elements with directives and bind data to HTML attributes with expressions.</li>
+            <li>A: A controller is responsible for providing appliaction behavior that supports the markup.</li>
+            <li>A: Ng-model binds input,select, and textarea information to a property on the scope using the controller.</li>
+            <li>A: The double curly brackets holding the variable and value of the variable of the element.</li>
+            <li>A: $scope is the binding part between the HTML and the JavasScript which is the controller. Using scope will bind what information is enterd to the value of the variable. Allowing the code to use that value and implement it into functions. </li>
+            <li>A: Dependency injections define components with services(actionable commands) and values(information) as dependencies. Since they are not hard coded within the HTML, they are resuable and editable. This makes dependency injections more versitile forms of information. </li>
+            <li>A: Two-way binding, or data-binding is the synchronization between the view and the model components. The view displays the information, and the model holds and updates the infomation. </li>
+            <li>A: The controller as syntax is another way to clarify what scope is being called. The controller is named first then the scope or action is then named. This helps define what scope is being accessed.</li>
+            <li>A: AnglarJS is known as MV* architecture. On the server side it is MVC, which is basically like a call in order, the sales person sends the order to manufacturer. Who, once completed, ships out the order. The order goes from controller (sales rep) to the manufactures (model) to the the shipping company(the view). Where as MVVC takes input from the view and sends to the view model who in turn sends that input information to the model who then sends it back to the view model to be displayed back in the view. This is considered more client based and has more UI/UX emphasis.</li>
+            <li>A: The main differece between injected functions, factories and services in AngularJS is the value of the function returned. After using module.service one will have a function for sharing utility functions by appending to the injected function. Where as using model.factories will return the function with a value, not an empty function. </li>
+        </ol>
+    </div>
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

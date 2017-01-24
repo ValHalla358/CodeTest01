@@ -1,0 +1,29 @@
+/*@font-face {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'News Cycle', sans-serif;
+    src: https: //fonts.googleapis.com/css?family=Shadows+Into+Light;
+    src: https: //fonts.googleapis.com/css?family=Amatic+SC;
+    src: https: //fonts.googleapis.com/css?family=News+Cycle;
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    font-family: Amatic SC, cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: Shadows Into Light, cursive;
+}
+
+#boldList,
+#buttonClick,
+#target {
+    font-family: News Cycle, sans-serif;
+    font-size: 1.5em;
+}
+*/
